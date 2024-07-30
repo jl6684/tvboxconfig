@@ -9,11 +9,11 @@
 			"searchable": 0,
 			"changeable": 1,
 			"indexs":1,
-			"ext": "./lib/douban.json"
+			"ext": "./json/douban.json"
 		},
 		{
          		"key": "ptt影视",
-            		"name": "💕ppt影视",
+            		"name": "💕ppt影視",
             		"type": 3,
            		 "api": "csp_XBPQ",
            		 "jar": "./lib/XBPQ.jar",
@@ -33,7 +33,7 @@
 			"timeout": 120,
 			"ext":{
 				"token":"./lib/tokenm.json",
-				"json":"./lib/youtube.json",
+				"json":"./json/youtube.json",
 				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
 				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
 				"codecs":"",
@@ -52,14 +52,14 @@
 			"api": "csp_Config",
 			"searchable": 0,
 			"changeable": 0,
-			"ext":"./lib/tokenm.json",
+			"ext":"./lib/token.json",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
 			}
 		},
-		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
-		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
+		{"key":"Local","name":"Local","type":3,"api":"csp_Local"},
+		{"key":"PushShare","name":"PushShare我的資源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pushshare.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
