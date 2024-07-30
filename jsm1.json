@@ -52,14 +52,14 @@
 			"api": "csp_Config",
 			"searchable": 0,
 			"changeable": 0,
-			"ext":"./lib/token.json",
+			"ext":"./lib/tokenm.json",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
 			}
 		},
 		{"key":"Local","name":"Local","type":3,"api":"csp_Local"},
-		{"key":"PushShare","name":"PushShare我的資源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pushshare.txt$$$db$$$1",
+		{"key":"PushShare","name":"PushShare我的資源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./json/pushshare.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -108,15 +108,15 @@
 			}
 		},
 		{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./json/sambashare.txt"},
-		{
+		/*{
 			"key": "直播转点播",
 			"name": "🐼️┃电视┃直播",
 			"type": 3,
 			"searchable": 0,
 			"api": "./lib/live2vod.js",
 			"ext": "./lib/feimaolive.json"
-		},
-		{
+		}, */
+		/*{
 			"key": "FirstAid",
 			"name": "🚑 急救知识 ",
 			"type": 3,
@@ -128,7 +128,7 @@
 				"type": "rect",
 				"ratio": 3.8
 			}
-		},
+		}, */
 		{"key":"drpy_js_磁力熊","name":"磁力熊[js]|索引","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
 			"indexs":1
 		},
@@ -145,7 +145,10 @@
 				"cookie":""
 			}
 		},
+		
 		{"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"},
+		{"key":"drpy_js_美剧迷p","name":"美剧迷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/meijumi.js", "quickSearch":1, "changeable":1, "timeout":30},
+		
 		{"key":"Libvio","name":"LIBVIO|网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.libvio.fun/$$$null"},
 		{"key":"Bt0","name":"不太灵|磁力","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$noproxy$$$1"},
 		{"key":"Xpanpan","name":"小盘盘|网盘","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$noproxy$$$1",
@@ -234,7 +237,9 @@
 				"ratio": 1.1
 			}
 		},
-		{"key":"Qianfan","name":"千帆|网盘搜索","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
+		
+		/*{"key":"Qianfan","name":"千帆|网盘搜索","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},*/
+		
 		{"key":"YunSo","name":"小云搜索|网盘搜索","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
 			"style": {
 				"type": "list",
@@ -242,7 +247,8 @@
 			}
 		},
 		{"key":"YunPanOne","name":"云盘One|网盘搜索","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy$$$1"},
-		{"key":"XBPQ_文才","name":"文才|XBPQ","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
+		
+		{"key":"XBPQ_文才","name":"文才|XBPQ","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar",
 			"ext":{
 				"滤词": "",
 				"直接播放": "0",
@@ -288,7 +294,7 @@
 				"类型": "喜剧$22#动作$23#战争$25#爱情$26#悬疑$27#武侠$28#科幻$30#冒险$31#警匪$32#动画$33#惊悚$34#犯罪$35#恐怖$36#剧情$37#历史$38#纪录$39#传记$40#歌舞$41||国产剧$14#欧美剧$15#港台剧$16#日韩剧$62#其他剧$68||国产动漫$75#日韩动漫$76#欧美动漫$77#港台动漫$78#其他动漫$80||国产综艺$69#港台综艺$70#日韩综艺$72#欧美综艺$73#其他综艺$74"
 				}
 		},
-		{"key":"XBPQ_黑狐影院","name":"黑狐影院|XBPQ","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
+		{"key":"XBPQ_黑狐影院","name":"黑狐影院|XBPQ","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar",
 			"ext": {
 				"站名": "黑狐影院",
 				"主页url": "http://fagmn.com",
@@ -325,7 +331,7 @@
 		{
 			"key":"XBPQ_电影先生",
 			"name": "电影先生|XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./jar/XBPQ.jar",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"ext": {
@@ -343,7 +349,7 @@
 				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
 			}
 		},
-		{"key": "XBPQ_麻衣影院","name":"麻衣影院|XBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/XBPQ.jar",
+		{"key": "XBPQ_麻衣影院","name":"麻衣影院|XBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar": "./jar/XBPQ.jar",
 			"ext": {"分类url":"https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"}
 		},
 		{
@@ -351,7 +357,7 @@
 			"name": "迅雷吧|XBPQ|磁力",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./jar/XBPQ.jar",
 			"ext": {
 				"播放数组": "copylink&&</a>",
 				"播放链接": "alt=\"&&\"",
@@ -366,7 +372,7 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./jar/XBPQ.jar",
 			"ext": {
 				"主页url": "https://www.xbw20.com/",
 				"编码": "gb2312",
@@ -389,8 +395,8 @@
 			"searchable":1,
 			"quickSearch":1,
 			"filterable":1,
-			"ext": "./lib/bttt.json",
-			"jar": "./lib/XBPQ.jar"
+			"ext": "./XBPQ/bttt.json",
+			"jar": "./jar/XBPQ.jar"
 		},
 		{"key":"布谷tv",
 			"name":"🐦布谷|4K磁力|XBPQ",
@@ -399,7 +405,7 @@
 			"searchable":1,
 			"quickSearch":1,
 			"filterable":1,
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./jar/XBPQ.jar",
 			"ext":{
 				"搜索链接":"https://www.bugutv.org/?cat=&s={wd}",
 				"简介":"◎简*介</p>&&</p>",
@@ -431,7 +437,7 @@
 				"播放数组": "下载地址</h2>&&</ul>[不包含:网盘]",
 				"播放列表":"<ul>&&</div>[包含:magnet]"
 			},
-			"jar": "./lib/XBPQ.jar"
+			"jar": "./jar/XBPQ.jar"
 		},
 		{
 			"key": "NanGua",
@@ -473,7 +479,7 @@
 			"api": "csp_Jianpian",
 			"searchable": 1,
 			"changeable": 1,
-			"ext": "./lib/jianpian.json$$$1",
+			"ext": "./json/jianpian.json$$$1",
 			"timeout":60
 		},
 		{
@@ -527,13 +533,13 @@
 			"searchable": 1,
 			"quickSearch": 1
 		},
-		{"key":"drpy_js_愛盤搜","name":"爱盘搜[js]|夸","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aipanso.js", "quickSearch":1, "changeable":1, "timeout":60,
+		/*{"key":"drpy_js_愛盤搜","name":"愛盤搜[js]|夸","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aipanso.js", "quickSearch":1, "changeable":1, "timeout":60,
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-		{"key":"drpy_js_人人影视","name":"人人影视[js]|搜","type":3,"api":"./lib/drpy2.min.js","ext":"./js/yyets.js", "quickSearch":1, "changeable":1, "timeout":60,
+		/*{"key":"drpy_js_人人影视","name":"人人[js]|搜","type":3,"api":"./lib/drpy2.min.js","ext":"./js/yyets.js", "quickSearch":1, "changeable":1, "timeout":60,
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -546,6 +552,8 @@
 				"ratio": 1.1
 			}
 		},
+	{"key":"drpy_js_4KHDR","name":"4KHDR[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4khdr.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
+		
 		{"key":"UP云搜","name":"阿里|UP云搜","type":3,"api":"csp_UpYun","timeout":30, "ext":"./lib/tokenm.json",
 			"style": {
 				"type": "list",
@@ -593,7 +601,7 @@
 			"api": "csp_XPathMacFilter",
 			"searchable": 1,
 			"changeable": 0,
-			"ext": "./lib/duboku.json$$$proxy"
+			"ext": "./json/duboku.json$$$proxy"
 		},
 		{
 			"key": "haiwaikan",
@@ -862,7 +870,7 @@
 				"name": "YTLive",
 				"type": 0,
 				
-				"url": "./lib/yo21.txt"
+				"url": "./yo21.txt"
 			},
 			{
 				"name": "直播",
