@@ -52,7 +52,7 @@
 			"api": "csp_Config",
 			"searchable": 0,
 			"changeable": 0,
-			"ext":"./lib/tokenmmm.json",
+			"ext":"./lib/tokenm.json",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
