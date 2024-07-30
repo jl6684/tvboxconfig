@@ -1,5 +1,5 @@
-{
-	"spider":"./pg.jar",
+       {
+	"spider":"./jar/pg.jar",
 	"sites":[
 		{
 			"key": "豆瓣",
@@ -12,17 +12,17 @@
 			"ext": "./lib/douban.json"
 		},
 		{
-            "key": "ptt影视",
-            "name": "💕ppt影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/pttred.json"
-        },
-{
+         		"key": "ptt影视",
+            		"name": "💕ppt影视",
+            		"type": 3,
+           		 "api": "csp_XBPQ",
+           		 "jar": "./lib/XBPQ.jar",
+           		 "searchable": 1,
+		         "quickSearch": 1,
+			 "filterable": 1,
+		         "ext": "./js/pttred.json"
+	        },
+		{
 			"key":"Youtube",
 			"name":"Youtube",
 			"type":3,
@@ -101,7 +101,7 @@
 				"ratio": 1.1
 			}
 		},
-		{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
+		{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.db.gz",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
