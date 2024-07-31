@@ -12,17 +12,6 @@
 			"ext": "./json/douban.json"
 		},
 		{
-         		"key": "ptt影视",
-            		"name": "💕ppt影視",
-            		"type": 3,
-           		 "api": "csp_XBPQ",
-           		 "jar": "./jar/XBPQ.jar",
-           		 "searchable": 1,
-		         "quickSearch": 1,
-			 "filterable": 1,
-		         "ext": "./js/pttred.json"
-	        },
-		{
 			"key":"Youtube",
 			"name":"Youtube",
 			"type":3,
