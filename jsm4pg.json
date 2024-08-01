@@ -25,7 +25,7 @@
 		         "ext": "./js/pttred.json"
 	        },
 			
-		//{
+		 {
 			"key":"Youtube",
 			"name":"Youtube",
 			"type":3,
@@ -111,7 +111,7 @@
 			}
 		},
 		{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./json/sambashare.txt"},
-    	// {
+    	  {
 			"key": "直播转点播",
 			"name": "🐼️┃电视┃直播",
 			"type": 3,
@@ -119,7 +119,7 @@
 			"api": "./lib/live2vod.js",
 			"ext": "./lib/feimaolive.json"
 		}, 
-    	//{
+    	 {
 			"key": "FirstAid",
 			"name": "🚑 急救知识 ",
 			"type": 3,
@@ -135,7 +135,7 @@
 		{"key":"drpy_js_磁力熊","name":"磁力熊[js]|索引","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
 			"indexs":1
 		},
-		//{
+		 {
 			"key":"bili",
 			"name":"B站 | Bili[jar]",
 			"type":3,
