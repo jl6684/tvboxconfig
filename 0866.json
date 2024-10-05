@@ -5,6 +5,7 @@
 "sites":[
 {"key":"豆豆","name":"douban","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"YGP","name":"🚀┃New release","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
+{"key":"fan","name":"有問題聯繫Joel","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"alllive","name":"📽️大陸遊戲直播","type":3,"api":"csp_Alllive","playerType":2,"searchable":0,"quickSearch":0,"changeable":0},
  {
             "key": "sgabys",
@@ -246,10 +247,8 @@
 
 {"key":"虎牙直播js","name":"🐯huya-live","type":3,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"斗鱼js","name":"🐟douyu-live","type":3,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"有声小说js","name":"🎧┃小说","type":3,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"Aid","name":"🚑急救┃教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
 
-{"key":"fan","name":"有問題就問","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"changeable":0},
+
 {"key":"cc","name":"唔好相信任何廣告","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"changeable":0}
 ],
 
